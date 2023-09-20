@@ -13,13 +13,14 @@ struct MainView: View {
     //Jam comments
     
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
+        
+        ZStack {
+            Color.blue.ignoresSafeArea(.all)
+            
             Text("This is a test")
+            .padding()
         }
-        .padding()
+        
     }
 }
 
