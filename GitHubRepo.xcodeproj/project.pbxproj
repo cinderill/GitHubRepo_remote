@@ -11,6 +11,7 @@
 		858F5FF52ABAC1BF00F9B229 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858F5FF42ABAC1BF00F9B229 /* MainView.swift */; };
 		858F5FF72ABAC1C200F9B229 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858F5FF62ABAC1C200F9B229 /* Assets.xcassets */; };
 		858F5FFA2ABAC1C200F9B229 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 858F5FF92ABAC1C200F9B229 /* Preview Assets.xcassets */; };
+		858F60022ABAC82600F9B229 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858F60012ABAC82600F9B229 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		858F5FF62ABAC1C200F9B229 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		858F5FF92ABAC1C200F9B229 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		858F5FFB2ABAC1C200F9B229 /* GitHubRepo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GitHubRepo.entitlements; sourceTree = "<group>"; };
+		858F60012ABAC82600F9B229 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				858F5FF22ABAC1BF00F9B229 /* GitHubRepoApp.swift */,
 				858F5FF42ABAC1BF00F9B229 /* MainView.swift */,
+				858F60012ABAC82600F9B229 /* SecondView.swift */,
 				858F5FF62ABAC1C200F9B229 /* Assets.xcassets */,
 				858F5FFB2ABAC1C200F9B229 /* GitHubRepo.entitlements */,
 				858F5FF82ABAC1C200F9B229 /* Preview Content */,
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				858F60022ABAC82600F9B229 /* SecondView.swift in Sources */,
 				858F5FF52ABAC1BF00F9B229 /* MainView.swift in Sources */,
 				858F5FF32ABAC1BF00F9B229 /* GitHubRepoApp.swift in Sources */,
 			);
